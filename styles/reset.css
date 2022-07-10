@@ -5,7 +5,7 @@
   --primary-color: #4e3fee;
   --dark-color: #14141f;
   --black-color: #000;
-  --accent-color: #d57d00;
+  --accent-color: #ECC256;
   --light-color: snow;
   --secondary-color: #515151;
   --blueViolet-color: blueviolet;
@@ -53,8 +53,12 @@ html {
 
 body {
   font-size: 1.5rem;
-  background: rgb(238,238,238);
-  background: linear-gradient(90deg, rgba(238,238,238,1) 22%, rgba(234,232,231,1) 65%, rgba(204,204,204,1) 100%);
+  background: linear-gradient(
+    141deg,
+    rgb(255, 255, 255) 0%,
+    #f7f7f7 51%,
+    #f2f2f2 75%
+  );
 }
 
 ul {
