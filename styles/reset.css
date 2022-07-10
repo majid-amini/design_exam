@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+:root {
+  --primary-color: #4e3fee;
+  --dark-color: #14141f;
+  --black-color: #000;
+  --accent-color: #d57d00;
+  --light-color: snow;
+  --secondary-color: #515151;
+  --blueViolet-color: blueviolet;
+  --darkGray-color: #343444;
+  --lightGray-color: #eee;
+  
+
+  --border-radius-tiny: 0.12rem;
+  --border-radius-xs: 0.25rem;
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: 1.5rem;
+  --border-radius-xl: 2rem;
+  --border-radius-2xl: 2.5rem;
+  --border-radius-3xl: 3rem;
+
+  --font-size-sm: 0.75rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
+}
+
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+
+/* px , rem , em, pt, percent */
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  background: rgb(238,238,238);
+  background: linear-gradient(90deg, rgba(238,238,238,1) 22%, rgba(234,232,231,1) 65%, rgba(204,204,204,1) 100%);
+}
+
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+.flex {
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -o-display: flex;
+  -ms-display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.align-items-flex-start {
+  align-items: flex-start;
+}
+.align-items-flex-end {
+  align-items: flex-end;
+}
+.padding-05 {
+  padding: 0.5rem;
+}
+.padding-1 {
+  padding: 1rem;
+}
+.pt-05 {
+  padding-top: 0.5rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+.pt-2 {
+  padding-top: 2rem;
+}
+.pt-3 {
+  padding-top: 3rem;
+}
+.pt-4 {
+  padding-top: 4rius
+}
+.pb-05 {
+  padding-bottom: 0.5rem;
+}
+.pb-1 {
+  padding-bottom: 1rem;
+}
+.pb-2 {
+  padding-bottom: 2rem;
+}
+.pb-3 {
+  padding-bottom: 3rem;
+}
+.pb-4 {
+  padding-bottom: 4rem;
+}
+.pl-1 {
+  padding-left: 1rem;
+}
+.pl-2 {
+  padding-left: 2rem;
+}
+.pl-3 {
+  padding-left: 3rem;
+}
+.pl-4 {
+  padding-left: 4rem;
+}
+.pr-1 {
+  padding-right: 1rem;
+}
+.pr-2 {
+  padding-right: 2rem;
+}
+.pr-3 {
+  padding-right: 3rem;
+}
+.pr-4 {
+  padding-right: 4rem;
+}
+.margin-1 {
+  margin: 1rem;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+.ml-3 {
+  margin-left: 3rem;
+}
+.ml-4 {
+  margin-left: 4rem;
+}
+.mr-1 {
+  margin-right: 1rem;
+}
+.mr-2 {
+  margin-right: 2rem;
+}
+.mr-3 {
+  margin-right: 3rem;
+}
+.mr-4 {
+  margin-right: 4rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.cursor {
+  cursor: pointer;
+}
+
+
+
+
